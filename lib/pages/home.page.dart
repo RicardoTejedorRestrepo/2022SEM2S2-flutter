@@ -154,6 +154,7 @@ class _HomePageState extends State<HomePage> {
                         resultado = sqrt(num.parse(resultado)).toString();
                         historial.add("√($auxResultado) = $resultado");
                         auxHistorial = historial.reversed.toList();
+                        auxResultado = "";
                       });
                       print("raiz");}),
                     BotonModel(titulo: "/", metodo: (){
